@@ -14,3 +14,19 @@ function saludar(nombre) {
 function despedida(nombre) {
     console.log(`Adios ${nombre}`);
 }
+
+const fiestaDelJair = (confirmacion = 1) =>{
+    switch (confirmacion) {
+        case 1:
+            console.log("Hay que empedarse");
+            break;
+    
+        case 2:
+            console.log("Hay que empedarse mucho mas");
+            break;
+    
+        default:
+            console.log("Hay que empedarse mucho mas hasta perder la consciencia");
+            break;
+    }
+}
