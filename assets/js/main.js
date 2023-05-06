@@ -6,3 +6,7 @@ const mostrar_mensaje = (mensaje) =>{
 btn_mostrar.addEventListener(
     'click', mostrar_mensaje("Vamos a mimir amigos")
 );
+
+function saludar(nombre) {
+    console.log(`Hola ${nombre}`);
+}
