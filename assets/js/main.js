@@ -1,5 +1,6 @@
 const titulo =  document?.querySelector('#titulo');
 const btn_mostrar = document?.querySelector("#btn_mostrar");
+const btn_saludar = document?.querySelector("#btn_saludar");
 const mostrar_mensaje = (mensaje) =>{
     titulo.innerHTML = mensaje;
 }
@@ -30,3 +31,12 @@ const fiestaDelJair = (confirmacion = 1) =>{
             break;
     }
 }
+
+const saludar = () => {
+    console.log("Hola mundo")
+}
+
+btn_saludar.addEventListener(
+    'click', saludar()
+)
+
