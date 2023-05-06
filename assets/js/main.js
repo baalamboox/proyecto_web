@@ -10,3 +10,7 @@ btn_mostrar.addEventListener(
 function saludar(nombre) {
     console.log(`Hola ${nombre}`);
 }
+
+function despedida(nombre) {
+    console.log(`Adios ${nombre}`);
+}
